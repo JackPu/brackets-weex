@@ -1,6 +1,6 @@
 # Brackets-weex
 
-
+<img src="http://img1.vued.vanthink.cn/vued4d5985d27285533df903dd3190e5b005.png" width="240" />
 
 A brackets extension for [weex](https://weex-project.io)
 
