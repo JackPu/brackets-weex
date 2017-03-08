@@ -1,0 +1,24 @@
+{
+  "name": "brackets-weex",
+  "version": "0.0.1",
+  "description": "brackets for weex,support syntax highlighting for weex file (.we)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackPu/brackets-weex.git"
+  },
+  "keywords": [
+    "weex",
+    "highlight",
+    "braclets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackPu/brackets-weex/issues"
+  },
+  "homepage": "https://github.com/JackPu/brackets-weex#readme"
+}

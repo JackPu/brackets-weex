@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Files
+
+*~
+.DS_Store
+Thumbs.db
+*.pid
+*.seed
+.idea
+.git
+__MACOSX
+
+# Directory
+tests/
+backup/
+node_modules/
+bower_components/
