@@ -1,6 +1,6 @@
 {
   "name": "brackets-weex",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "brackets for weex,support syntax highlighting for weex file (.we)",
   "main": "index.js",
   "scripts": {

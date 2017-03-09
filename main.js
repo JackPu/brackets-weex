@@ -3,7 +3,7 @@ define(function (require, exports, module) {
   var FILE_EXT = ".we", 
       MENU_LABEL = "New *.we", 
       EXTENSION_NAME = "Brackets Weex", 
-      WEEx_CREATE_EXECUTE = "weex.create.execute", 
+      WEEX_CREATE_EXECUTE = "weex.create.execute", 
       // weex has some same syntax to vue
       VUE_MODE_FILE_PATH = "/thirdparty/CodeMirror/mode/vue/vue.js", 
       documentIndex = 1, 
@@ -33,7 +33,6 @@ define(function (require, exports, module) {
   }
 
   function setLanguage(mode) {
-    console.log(mode);
     LanguageManager.defineLanguage("we", {
       name: "Weex component file"
       , mode: mode
@@ -45,7 +44,7 @@ define(function (require, exports, module) {
     setLanguage((!err && exists) ? "vue" : "htmlmixed");
   });
   AppInit.appReady(function () {
-    CommandManager.register(MENU_LABEL, VUE_CREATE_EXECUTE, createWeexFile);
+    CommandManager.register(MENU_LABEL, WEEX_CREATE_EXECUTE, createWeexFile);
     var fileMenu = Menus.getMenu(Menus.AppMenuBar.FILE_MENU);
     fileMenu.addMenuItem(VUE_CREATE_EXECUTE, undefined, Menus.AFTER, Commands.FILE_NEW_UNTITLED);
   });

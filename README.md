@@ -8,7 +8,6 @@ Support Syntax highlighting for weex file (.we)
 
 
 
-
 ### how to use
 
 + search brackets-weex for Brackets Extension Manager
